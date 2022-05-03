@@ -29,8 +29,8 @@ Below are some examples of our robustness tests. The blue sentences indicate the
 
 Below is the main result table of the original performance (Ori) and the attacked performance (Att). The models are:
 -  `FC` = full context model
--  `VIB` = the (Variational Information Buttleneck)[https://arxiv.org/pdf/2005.00652.pdf] model
--  `SPECTRA` = the (Sparse Structured Text Rationalization)[https://arxiv.org/pdf/2109.04552.pdf] model
+-  `VIB` = the [Variational Information Buttleneck](https://arxiv.org/pdf/2005.00652.pdf) model
+-  `SPECTRA` = the [Sparse Structured Text Rationalization](https://arxiv.org/pdf/2109.04552.pdf) model
 -  `*-sup` = models using the human provided rationales as supervision
 
 |               | FEVER (Ori / Att) | MultiRC (Ori / Att) | SQuAD (Ori / Att) | Beer (Ori / Att) | Hotel (Ori / Att) |
