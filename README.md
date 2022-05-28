@@ -78,7 +78,13 @@ Below are the arguments specific to the SPECTRA models:
 ### Attacks
 Run the checkpoint on the attack dataset (FEVER/MultiRC):
 
-To-be-added.
+(Here `vib_semi` corresponds to VIB-sup, `full` to FC, and `full_multitask` to FC-sup in the paper.)
+```
+python -m rr.eval.run_eval --model-name {MODEL_CHECKPOINT_DIR} \
+                           --bottleneck-type {vib | vib_semi | full | full_multitask} \
+                           --exp-dir {fever | multirc} --attack-dir addsent_pos{ATTACK_POSITION} \
+                           --output-to-tmp                           
+```
 
 Run the checkpoint on the attack dataset (SQuAD):
 ```
