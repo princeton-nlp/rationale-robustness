@@ -76,22 +76,25 @@ Below are the arguments specific to the SPECTRA models:
 - `--solver_iter`: number of iterations to run the LP-SparseMAP solver
 
 ### Attacks
-Run the checkpoint on the attack dataset (FEVER/MultiRC):
+#### Run the checkpoint on the attack dataset (FEVER/MultiRC):
 
-(Here `vib_semi` corresponds to VIB-sup, `full` to FC, and `full_multitask` to FC-sup in the paper.)
+First run `python -m rr.attacks.aug_and_cache_data --dataset-name fever --aug-method addsent --attack-dir addsent --insert_pos 0` to cache the attacks (see `rr/attacks/aug_and_cache_data.py` for other options).
 ```
 python -m rr.eval.run_eval --model-name {MODEL_CHECKPOINT_DIR} \
                            --bottleneck-type {vib | vib_semi | full | full_multitask} \
-                           --exp-dir {fever | multirc} --attack-dir addsent_pos{ATTACK_POSITION} \
+                           --exp-dir {fever | multirc} \
+                           --attack-dir addsent_pos0 \
                            --output-to-tmp                           
 ```
+Here `vib_semi` corresponds to VIB-sup, `full` to FC, and `full_multitask` to FC-sup in the paper.
 
-Run the checkpoint on the attack dataset (SQuAD):
+
+#### Run the checkpoint on the attack dataset (SQuAD):
 ```
 python -m rrtl.run_squad_eval --dataset-name squad-addonesent --load-path /path/to/checkpoint.pt
 ```
 
-Run the checkpoint on the attack dataset (Beer/Hotel)
+#### Run the checkpoint on the attack dataset (Beer/Hotel)
 To cache the attack, first run `python -m rrtl.attacks.sentiment_attack` to cache the attacks. Second, run:
 ```
 python -m rrtl.analysis.eraser.run_token_level_analysis --dataset-name {beer | hotel} \
