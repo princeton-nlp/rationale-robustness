@@ -1,7 +1,6 @@
 #!/bin/bash
 model_option=$1
 base_path="/path/to/your/repo"
-#base_path="/n/fs/nlp-hc22/rationale-robustness"
 
 if [[ "$model_option" == "fc" ]]; then
     REPO_PATH=$base_path/rr/base/explainable_qa
