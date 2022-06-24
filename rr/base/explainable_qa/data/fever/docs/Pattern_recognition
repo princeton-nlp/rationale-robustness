@@ -1,0 +1,16 @@
+Pattern recognition is a branch of machine learning that focuses on the recognition of patterns and regularities in data , although it is in some cases considered to be nearly synonymous with machine learning .
+Pattern recognition systems are in many cases trained from labeled `` training '' data -LRB- supervised learning -RRB- , but when no labeled data are available other algorithms can be used to discover previously unknown patterns -LRB- unsupervised learning -RRB- .
+The terms pattern recognition , machine learning , data mining and knowledge discovery in databases -LRB- KDD -RRB- are hard to separate , as they largely overlap in their scope .
+Machine learning is the common term for supervised learning methods and originates from artificial intelligence , whereas KDD and data mining have a larger focus on unsupervised methods and stronger connection to business use .
+Pattern recognition has its origins in engineering , and the term is popular in the context of computer vision : a leading computer vision conference is named Conference on Computer Vision and Pattern Recognition .
+In pattern recognition , there may be a higher interest to formalize , explain and visualize the pattern , while machine learning traditionally focuses on maximizing the recognition rates .
+Yet , all of these domains have evolved substantially from their roots in artificial intelligence , engineering and statistics , and they 've become increasingly similar by integrating developments and ideas from each other .
+In machine learning , pattern recognition is the assignment of a label to a given input value .
+In statistics , discriminant analysis was introduced for this same purpose in 1936 .
+An example of pattern recognition is classification , which attempts to assign each input value to one of a given set of classes -LRB- for example , determine whether a given email is `` spam '' or `` non-spam '' -RRB- .
+However , pattern recognition is a more general problem that encompasses other types of output as well .
+Other examples are regression , which assigns a real-valued output to each input ; sequence labeling , which assigns a class to each member of a sequence of values -LRB- for example , part of speech tagging , which assigns a part of speech to each word in an input sentence -RRB- ; and parsing , which assigns a parse tree to an input sentence , describing the syntactic structure of the sentence .
+Pattern recognition algorithms generally aim to provide a reasonable answer for all possible inputs and to perform `` most likely '' matching of the inputs , taking into account their statistical variation .
+This is opposed to pattern matching algorithms , which look for exact matches in the input with pre-existing patterns .
+A common example of a pattern-matching algorithm is regular expression matching , which looks for patterns of a given sort in textual data and is included in the search capabilities of many text editors and word processors .
+In contrast to pattern recognition , pattern matching is generally not considered a type of machine learning , although pattern-matching algorithms -LRB- especially with fairly general , carefully tailored patterns -RRB- can sometimes succeed in providing similar-quality output of the sort provided by pattern-recognition algorithms .
