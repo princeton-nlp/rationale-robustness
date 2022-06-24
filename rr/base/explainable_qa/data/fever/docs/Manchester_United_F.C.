@@ -1,0 +1,15 @@
+Manchester United Football Club is a professional football club based in Old Trafford , Greater Manchester , England , that competes in the Premier League , the top flight of English football .
+Nicknamed `` the Red Devils '' , the club was founded as Newton Heath LYR Football Club in 1878 , changed its name to Manchester United in 1902 and moved to its current stadium , Old Trafford , in 1910 .
+Manchester United are the most successful club in England , having won a record 20 League Titles , 12 FA Cups , 5 League Cups and a record 21 FA Community Shields .
+The club has also won three UEFA Champions League , one UEFA Europa League , one UEFA Cup Winners ' Cup , one UEFA Super Cup , one Intercontinental Cup and one FIFA Club World Cup .
+In 1998 -- 99 , the club became the first in the history of English football to achieve the treble of the Premier League , the FA Cup and the UEFA Champions League .
+In 2016 -- 17 , they also , by winning the UEFA Europa League , became one of five clubs to have won all three main UEFA club competitions .
+In winning all three top domestic trophies -LRB- as well as both iterations of the English championship -RRB- , all three major European trophies , both the domestic and European super cups , and both international titles -LRB- the now-defunct Intercontinental Cup in 1999 and its successor , the FIFA World Club Cup in 2008 -RRB- , the club has achieved a clean sweep of all top honours available to it ; the first and thus far only English club to do so .
+The 1958 Munich air disaster claimed the lives of eight players .
+In 1968 , under the management of Matt Busby , Manchester United became the first English football club to win the European Cup .
+Alex Ferguson won 38 trophies as manager , including 13 Premier League titles , 5 FA Cups and 2 UEFA Champions Leagues , between 1986 and 2013 , when he announced his retirement .
+José Mourinho is the club 's current manager , having been appointed on 27 May 2016 .
+Manchester United was the highest-earning football club in the world for 2015 -- 16 , with an annual revenue of $ 689 million , and the world 's third most valuable football club in 2015 , valued at # 1.98 billion .
+As of June 2015 , it is the world 's most valuable football brand , estimated to be worth $ 1.2 billion .
+After being floated on the London Stock Exchange in 1991 , the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost # 800 million , after which the company was taken private again , before going public once more in August 2012 , when they made an initial public offering on the New York Stock Exchange .
+Manchester United is one of the most widely supported football clubs in the world , and holds several rivalries with other clubs , most notably with Liverpool , Manchester City and Leeds United , and more recently with Arsenal .
