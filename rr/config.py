@@ -10,8 +10,7 @@ class Config:
     BASE_BERT_DIM = 768
 
     # paths
-    ROOT_DIR = Path('/n/fs/nlp-hc22/rationale-robustness')
-#    ROOT_DIR = Path('/path/to/your/repo')
+    ROOT_DIR = Path('/path/to/your/repo')
     PROJECT_DIR = ROOT_DIR / PROJECT_NAME
     EXP_DIR = PROJECT_DIR / 'experiments'
     TMP_DIR = PROJECT_DIR / 'tmp'
