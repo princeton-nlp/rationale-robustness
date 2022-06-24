@@ -1,0 +1,14 @@
+Speech recognition -LRB- SR -RRB- is the inter-disciplinary sub-field of computational linguistics that develops methodologies and technologies that enables the recognition and translation of spoken language into text by computers .
+It is also known as `` automatic speech recognition '' -LRB- ASR -RRB- , `` computer speech recognition '' , or just `` speech to text '' -LRB- STT -RRB- .
+It incorporates knowledge and research in the linguistics , computer science , and electrical engineering fields .
+Some SR systems use `` training '' -LRB- also called `` enrollment '' -RRB- where an individual speaker reads text or isolated vocabulary into the system .
+The system analyzes the person 's specific voice and uses it to fine-tune the recognition of that person 's speech , resulting in increased accuracy .
+Systems that do not use training are called `` speaker independent '' systems .
+Systems that use training are called `` speaker dependent '' .
+Speech recognition applications include voice user interfaces such as voice dialing -LRB- e.g. `` Call home '' -RRB- , call routing -LRB- e.g. `` I would like to make a collect call '' -RRB- , domotic appliance control , search -LRB- e.g. find a podcast where particular words were spoken -RRB- , simple data entry -LRB- e.g. , entering a credit card number -RRB- , preparation of structured documents -LRB- e.g. a radiology report -RRB- , speech-to-text processing -LRB- e.g. , word processors or emails -RRB- , and aircraft -LRB- usually termed Direct Voice Input -RRB- .
+The term voice recognition or speaker identification refers to identifying the speaker , rather than what they are saying .
+Recognizing the speaker can simplify the task of translating speech in systems that have been trained on a specific person 's voice or it can be used to authenticate or verify the identity of a speaker as part of a security process .
+From the technology perspective , speech recognition has a long history with several waves of major innovations .
+Most recently , the field has benefited from advances in deep learning and big data .
+The advances are evidenced not only by the surge of academic papers published in the field , but more importantly by the worldwide industry adoption of a variety of deep learning methods in designing and deploying speech recognition systems .
+These speech industry players include Google , Microsoft , IBM , Baidu , Apple , Amazon , Nuance , SoundHound , IflyTek , CDAC many of which have publicized the core technology in their speech recognition systems as being based on deep learning .
