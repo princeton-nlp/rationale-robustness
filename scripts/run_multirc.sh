@@ -1,6 +1,7 @@
 #!/bin/bash
 model_option=$1
-base_path="/path/to/your/repo"
+#base_path="/path/to/your/repo"
+base_path="/n/fs/nlp-hc22/rationale-robustness"
 
 if [[ "$model_option" == "fc" ]]; then
     REPO_PATH=$base_path/rr/base/explainable_qa
@@ -38,7 +39,7 @@ if [[ "$model_option" == "fc" ]]; then
 
 elif [[ "$model_option" == "vib" ]]; then
     REPO_PATH=$base_path/rr/base/explainable_qa
-    RUN_PATH=$base_path/rr/base/explainable_qa/baselines
+    RUN_PATH=$base_path/rr/base/explainable_qa/information_bottleneck
     DATASET_NAME=multirc
     BOTTLENECK_TYPE=vib
     MODEL_NAME=multirc_vib
