@@ -56,7 +56,7 @@ Configure `rrtl/config.py` to point the base path to your repo.
 
 To train, simply run `run_{dataset}.sh {model_option}`. `{model_option}` takes one of these values `[fc | vib | spectra]`.
 
-For example, to run the SPECTRA model on FEVER:
+For example, to run the SPECTRA model on FEVER (make sure to set your repo path `base_path` in the run script):
 ```
 ./scripts/run_fever.sh spectra
 ```
