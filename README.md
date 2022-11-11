@@ -1,6 +1,7 @@
 # Can Rationalization Improve Robustness?
 
 This repository contains the code for our NAACL'22 paper [Can Rationalization Improve Robustness?](https://arxiv.org/pdf/2204.11790.pdf).
+You can also check out our slides [here](slides/naacl2022-slides.pdf) or the NAACL 2022 talk [here](https://aclanthology.org/2022.naacl-main.278.mp4).
 
 ## Quick Links
 
