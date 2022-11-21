@@ -12,8 +12,8 @@ if [[ "$model_option" == "fc" ]]; then
                                  --grad_accumulation_steps 4
 elif [[ "$model_option" == "vib" ]]; then
     python -m rrtl.run_eraser --run-name beer_vib \
-                                 --dataset-name beer \
-                                 --model-type vib_beer_token \
+                                 --dataset-name hotel \
+                                 --model-type vib_hotel_token \
                                  --lr 1e-5 \
                                  --eval-interval 500 \
                                  --dataparallel \
@@ -25,8 +25,8 @@ elif [[ "$model_option" == "vib" ]]; then
                                  --tau 0.1
 
 elif [[ "$model_option" == "spectra" ]]; then
-    python -m rrtl.run_eraser --run-name beer_spectra \
-                                 --dataset-name beer \
+    python -m rrtl.run_eraser --run-name hotel_spectra \
+                                 --dataset-name hotel \
                                  --model-type spectra \
                                  --lr 1e-5 \
                                  --eval-interval 500 \
